@@ -2,8 +2,12 @@
 ## HACTOBERFEST
 
 Make your first pull request.
-Task:
+
+### Task:
 -Write any algorithm of your choice in recursive form in any language.
+
+A recursive method is a method that is defined in terms of itself. The general idea behind recursion is that a problem lends itself to a recursive solution if the problem can be broken down into a smaller version of the same problem. A non-CS example of this is the Matroyshka doll. A mathematical example of this is the computation of the factorial of a number. factorial(N) is N*factorial(N-1).
+
 
 ### Steps: 
 - Fork this Repository using the button at the top
