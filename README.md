@@ -27,3 +27,11 @@ A recursive method is a method that is defined in terms of itself. The general i
 - Give some working test cases. 
 - PR for similar implementation in similar language won't be considered.
 
+## CONTRIBUTORS
+
+|Sl. No.| Name | Institution | Country | Language Added |
+| ----- | ---- | ----------- | ------- | -------------- |
+|1| [Amartya Kalapahar](https://github.com/amartya-k) | N.M.A.M. Institute Of Technology, Nitte | India | C |
+|2| Ajit Panigrahi | | India | Python |
+|3| Sayan Deb Sarkar | | India | C++ |
+|4| Nidhi Shetty | | India | C++|
