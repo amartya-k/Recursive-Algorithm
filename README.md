@@ -19,6 +19,7 @@ A recursive method is a method that is defined in terms of itself. The general i
 - Star this repository
 - Wait for Pull Request to merge
 - Celebrate - you've done your first pull request!!
+- Additional: You can add yourself to the contributors list by editing the README.md file. 
 
 
 ### Note:
@@ -36,3 +37,4 @@ A recursive method is a method that is defined in terms of itself. The general i
 |3| Sayan Deb Sarkar | | India | C++ |
 |4| Nidhi Shetty | | India | C++|
 |5| Marco Wang | University of Taipei | Taiwan | Java |
+|6| Rohit Kumar | | India | Java |
