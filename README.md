@@ -37,4 +37,4 @@ A recursive method is a method that is defined in terms of itself. The general i
 |3| Sayan Deb Sarkar | | India | C++ |
 |4| Nidhi Shetty | | India | C++|
 |5| Marco Wang | University of Taipei | Taiwan | Java |
-|6| Rohit Kumar | | India | Java |
+|6| Rohit Kumar |BIET Jhansi | India | Java |
