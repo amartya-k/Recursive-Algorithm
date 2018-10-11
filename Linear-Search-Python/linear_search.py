@@ -37,11 +37,6 @@ def main():
         print('Recursive Linear Search : Element not present in array')
     else:
         print('Recursive Linear Search : Element is present at index', result)
-    result = iterative(array, element)
-    if result is None:
-        print('Iterative Linear Search : Element not present in array')
-    else:
-        print('Iterative Linear Search : Element is present at index', result)
 
 
 if __name__ == '__main__':
