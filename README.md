@@ -26,7 +26,7 @@ A recursive method is a method that is defined in terms of itself. The general i
 - Upload your own file. 
 - Do not modify other's file. 
 - Give some working test cases. 
-- PR for similar implementation in similar language won't be considered.
+- PR for similar implementation in similar language won't be considered or accepted.
 
 ---
 ### CONTRIBUTORS
