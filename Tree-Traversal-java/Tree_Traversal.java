@@ -73,8 +73,30 @@ class BinaryTree
         /* now recur on right subtree */
         printPreorder(node.right); 
     } 
-  
+ void LevelElements(Node ROOT,int level) {
+		if(level==0) {
+			if(ROOT==null)
+				return;
+			else
+				System.out.print(ROOT.value+"     ");
+		}
+		else {
+		if(ROOT.left!=null)
+			{LevelElements(ROOT.left,level-1);}
+		if(ROOT.right!=null)
+			{LevelElements(ROOT.right,level-1);}
+		}
+	}
+	
+	void LevelOrder(Node root) {
+		for(int i=0;i<=Height(root);i++) {
+			LevelElements(root,i);
+			System.out.println("");
+		}
+	} 
     // Wrappers over above recursive functions 
     void printPostorder()  {     printPostorder(root);  } 
     void printInorder()    {     printInorder(root);   } 
     void printPreorder()   {     printPreorder(root);  } 
+    void printLevelOrder() {   printLevelOrder(root); } 
+}
