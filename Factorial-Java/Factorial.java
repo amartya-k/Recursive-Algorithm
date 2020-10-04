@@ -18,7 +18,7 @@ public class Factorial {
     public static void main(String[] args) {
         int n;
         
-        System.out.print("Getting n's factorial. Enter n: ");
+        System.out.println("Getting n's factorial. Enter n: ");
         n = SC.nextInt();
         
         System.out.println(String.format("%d's factorial is: %d", n, factorial(n)));
