@@ -1,8 +1,35 @@
 import java.util.*;
 
 public class Main {
+	Scanner input = new Scanner(System.in);
+	
+	public Main(){	
+		//Take no. of elements as input
+		int n = input.nextInt();
 
-	public static int binarySearch(int[] arr,int start, int end, int num){
+		/*Take numbers as input into array arr in ascending order
+		Since Binary Search only applies to sorted array. 
+		*/
+
+		int[] arr = new int[n];
+		for(int i=0;i<n;i++)
+			arr[i]=input.nextInt();
+
+		//Take input of number to be searched
+		int number=input.nextInt();
+
+		//Perform binary search
+		int index=binarySearch(arr,0,arr.length-1,number);		//Call the function
+
+		if(index==-1)
+		    System.out.println("Number not found");
+		else System.out.println("Numebr found at index "+index);
+	}
+
+	/*
+	 * 	Functon binarySearch()
+	 */
+	public int binarySearch(int[] arr,int start, int end, int num){
     	//Number not found
         if(start>end)
             return -1;
@@ -18,31 +45,10 @@ public class Main {
         else return binarySearch(arr,start,mid-1,num);
     }
 
-    
+    // main method
     public static void main(String[] args) {
-    	Scanner input = new Scanner(System.in);
-    	//Take no. of elements as input
-    	int n = input.nextInt();
-
-    	/*Take numbers as input into array arr in ascending order
-    	Since Binary Search only applies to sorted array. 
-    	*/
-
-    	int[] arr = new int[n];
-        for(int i=0;i<n;i++)
-        	arr[i]=input.nextInt();
-
-        //Take input of number to be searched
-        int number=input.nextInt();
-
-        //Perform binary search
-        int index=binarySearch(arr,0,arr.length-1,number);
-        
-        if(index==-1)
-            System.out.println("Number not found");
-        else System.out.println("Numebr found at index "+index);
+    	Main m1 = new Main();		//Create Object
     }
-
     
 }
 
